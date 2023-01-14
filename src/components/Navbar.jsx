@@ -11,14 +11,18 @@ const Navbar = () => (
     p={2}
     sx={{
       position: "sticky",
-      background: "#333",
+      background: "#111",
       top: 0,
       justifyContent: "space-between",
     }}
   >
     <Link
       to={"/"}
-      style={{ display: "flex", alignItems: "center", marginLeft: "30px" }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        marginLeft: "15px",
+      }}
     >
       <img src={logo} alt="logo" height={50} />
     </Link>
