@@ -16,6 +16,7 @@ export { default as logo } from "./logo/logo.webp";
 
 export const categories = [
   { name: "New", icon: <HomeIcon /> },
+  { name: "Free Code Camp", icon: <CodeIcon /> },
   { name: "Coding", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "NextJS", icon: <CodeIcon /> },
